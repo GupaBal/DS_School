@@ -1,0 +1,45 @@
+Esc : 셀 편집 상태를 선택 상태로 전환
+Enter : 셀 선택 상태를 편집 상태로 전환
+셀 선택 상태에서 a : 선택된 셀을 위에 새로운 셀 추가
+셀 선택 상태에서 b : 선택된 셀을 아래에 새로운 셀 추가
+셀 선택 상태에서 m : 선택된 셀을 markdown 상태로 전환
+셀 선택 상태에서 y : 선택된 셀을 code 편집 상태로 전환
+셀 선택 상태에서 x : 셀 잘라내기
+셀 선택 상태에서 c : 셀 복사하기
+셀 선택 상태에서 v : 셀 붙여넣기
+셀 선택 상태에서 dd : 셀 제거하기
+Ctrl + Enter : 셀 실행
+Shift + Enter : 셀 실행 후 아래 셀 선택
+Alt + Enter : 셀 실행 후 아래에 새로운 셀 추가
+
+
+pands 분석하는 패키지 
+기본적으로 python과 비슷하지만 
+pd_odd.mean() 판다스에서 제공하는 평균값 구하는 함수 
+판다스 시리즈로 바꿔줘야만 판다스에서 제공하는 함수들을 사용할수 있다. 
+
+DataFrame 이것을 잘 활용하는가가 판다스를 잘 활용하는지 여부가 나뉨 
+(엑셀표처럼 만들어줌)
+
+Series == DataFrame 동일한 쓰임새로 사용된다. 
+DataFrame이라는 것은 여러가지의 Series로 구성되어 있다
+
+Data Type (파이썬을 공부하면 익숙 어떠한 하나의 데이터가 있으면 정수형인지 실수형인지)
+Series와 DataFrame의 자료형을 알아볼때 pd.Series(odd) odd.dtypes
+
+https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html
+
+
+
+부족한 부분 공부는 
+파이썬 : 점프투 파이썬 2~5장 추천 
+pandas : 10minutes to pandas 추천 
+
+데이터 분석가가 처음으로 일할때 해야할 일은 대리터를 처리하는 데이터 DataCleaning
+사람마다 DataCleaning 하는 시간의 차이가 크다 
+
+
+
+#세 개의 데이터를 하나로 합치기 
+Merge, join, and concatenate 알아보기 
+set-index (데이터 프레임 인덱스 설정 및 제거 )
